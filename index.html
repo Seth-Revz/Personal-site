@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>☜Revz☞</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/stars.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="./javascript/javascript.js"></script>
+  <script src="https://use.fontawesome.com/9500b9b962.js"></script>
+</head>
+
+<body>
+  <div class="background" style="position:fixed; top:0px; left:0px; z-index:-11; width:100%; overflow-y:hidden; overflow-x:hidden; margin:auto;"></div>
+  <main>
+    <div class="container">
+      <p class="animated infinite pulse center" id="name">☜Revz☞</p>
+    </div>
+    <div class="container">
+      <p class="animated infinite pulse center"><a href="http://steamcommunity.com/id/Revz07/">Steam</a></p>
+    </div>
+    <div class="container">
+      <p class="animated infinite pulse center"><a href="https://discord.gg/7kARzdK">Discord</a></p>
+    </div>
+
+    <div class="bg-animation overlay" pointer-events: none>
+      <div id="stars3"></div>
+      <div id="stars4"></div>
+      <div id="stars2"></div>
+    </div>
+    <audio autoplay loop id="audio" onloadeddata="setHalfVolume()">
+      <source src="music/beat.mp3" type="audio/mp3">
+    </audio>
+  </main>
+
+  <footer>
+    <a target="_blank" href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a target="_blank" href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    <button onclick="document.getElementById('audio').play()">Play</button>
+    <button onclick="document.getElementById('audio').pause()">Pause</button>
+  </footer>
+
+  <script>
+    function setHalfVolume() {
+      var myAudio = document.getElementById("audio");
+      myAudio.volume = 0.1;
+    }
+  </script>
+</body>
+
+</html>
