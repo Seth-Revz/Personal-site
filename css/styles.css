@@ -24,7 +24,7 @@ body {
 .centerDiv{
   position: absolute;
   width: 100%;
-  margin-top: 17%;
+  margin-top: 0%;
 }
 
 main {
@@ -69,7 +69,7 @@ audio {
 }
 
 .container #name{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 30px;
     font-size: 100px;
     color: White;
@@ -105,27 +105,27 @@ audio {
 
 a:link
 {
-   color: #fb3f00;
+   color: #ffa500;
    text-decoration: none;
 }
 a:visited
 {
-   color: #fb3f00;
+   color: #ffa500;
    text-decoration: none;
 }
 a:hover
 {
-   color: #fb3f00;
+   color: #ffa500;
    text-decoration: none;
 }
 a:active
 {
-   color: #fb3f00;
+   color: #ffa500;
    text-decoration: none;
 }
 
 button {
-    background-color: #fb3f00;
+    background-color: #ffa500;
     border: none;
     color: black;
     padding: 1px;
