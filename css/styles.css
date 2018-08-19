@@ -1,12 +1,13 @@
+/*Stylesheet*/
 
 body {
-  height:100%;
+  height: 100%;
   overflow-y: hidden;
   min-height: 100%;
   margin: 0;
 }
 
-.background{
+.background {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../images/anime.jpg');
   width: 100%;
   height: 100%;
@@ -15,13 +16,13 @@ body {
 }
 
 .overlay {
-    height:0px;
-    overflow:visible;
-    pointer-events:none;
-    background:none !important;
+  height: 0px;
+  overflow: visible;
+  pointer-events: none;
+  background: none !important;
 }
 
-.centerDiv{
+.centerDiv {
   position: absolute;
   width: 100%;
   margin-top: 0%;
@@ -45,94 +46,97 @@ footer {
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 @font-face {
-    font-family: "Milkshake"; /*a name to be used later*/
-    src: url("Milkshake.otf"); /*URL to font*/
+  font-family: "Milkshake";
+  /*a name to be used later*/
+  src: url("Milkshake.otf");
+  /*URL to font*/
 }
 
 audio:not([controls]) {
-    display: none;
+  display: none;
 }
 
 audio {
-    width: 300px;
-    height: 32px;
+  width: 300px;
+  height: 32px;
 }
 
-.container{
-    overflow:hidden;
-    overflow-x:hidden;
-    text-align:center;
+.container {
+  overflow: hidden;
+  overflow-x: hidden;
+  text-align: center;
 }
 
-.container #name{
-    margin-top: 5%;
-    margin-bottom: 30px;
-    font-size: 100px;
-    color: White;
-    font-family: "Milkshake", Times, serif;
+.container #name {
+  margin-top: 5%;
+  margin-bottom: 30px;
+  font-size: 100px;
+  color: White;
+  font-family: "Milkshake", Times, serif;
 }
 
-.container p{
-    color: White;
-    font-family: "Milkshake", Times, serif;
-    margin: 10px;
-    font-size: 50px;
+.container p {
+  color: White;
+  font-family: "Milkshake", Times, serif;
+  margin: 10px;
+  font-size: 50px;
 }
 
-.animated{
-    animation-duration: 2.0s;
-    animation-fill-mode: both
-}
-.animated.infinite{
-    animation-iteration-count: infinite
+.animated {
+  animation-duration: 2.0s;
+  animation-fill-mode: both
 }
 
-@keyframes pulse{
-    from,to{
-        transform:scale3d(1,1,1)
-    }
-    50%{
-        transform:scale3d(1.05,1.05,1.05)
-    }
-}
-.pulse{
-    animation-name: pulse;
+.animated.infinite {
+  animation-iteration-count: infinite
 }
 
-a:link
-{
-   color: #ffa500;
-   text-decoration: none;
+@keyframes pulse {
+  from, to {
+    transform: scale3d(1, 1, 1)
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05)
+  }
 }
-a:visited
-{
-   color: #ffa500;
-   text-decoration: none;
+
+.pulse {
+  animation-name: pulse;
 }
-a:hover
-{
-   color: #ffa500;
-   text-decoration: none;
+
+a:link {
+  color: #ffa500;
+  text-decoration: none;
 }
-a:active
-{
-   color: #ffa500;
-   text-decoration: none;
+
+a:visited {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffa500;
+  text-decoration: none;
 }
 
 button {
-    background-color: #ffa500;
-    border: none;
-    color: black;
-    padding: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #ffa500;
+  border: none;
+  color: black;
+  padding: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }

@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  (function () {
+  (function() {
     var angle = 0;
     var p = document.querySelector('p');
     var text = p.textContent.split('');
@@ -8,13 +8,13 @@ $(document).ready(function() {
     var phaseJump = 360 / len;
     var spans;
 
-    p.innerHTML = text.map(function (char) {
+    p.innerHTML = text.map(function(char) {
       return '<span>' + char + '</span>';
     }).join('');
 
     spans = p.children;
 
-    (function wheee () {
+    (function wheee() {
       for (var i = 0; i < len; i++) {
         spans[i].style.color = 'hsl(' + (angle + Math.floor(i * phaseJump)) + ', 55%, 70%)';
       }
